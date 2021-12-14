@@ -12,9 +12,16 @@
 </head>
 <body>
     <div id="root"></div>
+    
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+var yellow = React.createElement("div",{class:"yellow"},React.createElement("div",{class:"yellowc"}),React.createElement("div",{class:"yellowc"}))
+
+var red=React.createElement("div",{class:"red"})
+var blue= React.createElement("div",{class:"blue"},React.createElement("div"),React.createElement("div"),React.createElement("div"))
+var main=React.createElement("div",null,yellow,red,blue)
+
+ReactDOM.render(main,document.getElementById('root'));
 
 </script>
 <!--
