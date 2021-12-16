@@ -1,12 +1,30 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
+img {
+  padding: 20px;
+  margin: 5px;
   height: 40vmin;
+  width: 40vmin;
   pointer-events: none;
+  border-radius: 10%;
+}
+h1{
+  color: #19b0da;
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 5px;
 }
 
+.profile-info-container label{
+  padding-left: 20px;
+  margin-top: 20px;
+  font-size: 10px;
+  display: flex;
+  color: #758a91;
+  font-weight: bold;
+}
+.profile-info-container strong{
+  padding-left: 20px;
+}
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +53,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

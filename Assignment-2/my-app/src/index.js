@@ -4,9 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const employees= [
+  {
+    name: "Tom",
+    location: "New York",
+    bloodGroup: "B+",
+    age: 28,
+    profileImg: "https://www.w3schools.com/howto/img_avatar.png",
+  },
+];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App employees={employees}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
